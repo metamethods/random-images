@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import GetImage from "@/util/GetImage";
+import GetImage from "./util/GetImage";
 
 import type { NextRequest } from "next/server";
 
