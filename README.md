@@ -1,3 +1,8 @@
+__Around 50% of the code came from Lukadev's random quote machine, but modified to my liking.
+Go check out his random quote machine!__
+
+[https://github.com/lukadev-0/random-quote-machine](Random Quote Machine)
+
 # Adding an Image
 To add an image to the website, you would go to`src/data/images.toml`.
 Then add the image in this format:
