@@ -13,7 +13,14 @@ export default async function Page(
 
   return (
     <main className='flex items-center justify-center | min-h-screen'>
-      <Display />
+      <Display
+        image={{
+          name: '',
+          description: '',
+          author: '',
+          image: '',
+        }}
+      />
     </main>
   )
 }
