@@ -5,7 +5,7 @@ author = 'somebody'
 image = 'https://wallpaper.dog/large/10792515.jpg'
 
 [[image]]
-name = 'some cool image2'
-description = 'this is a cool image'
-author = 'somebody'
-image = 'https://wallpaper.dog/large/10792515.jpg'
+name = 'Concorde'
+description = "Skyrden's Concorde plane"
+author = 'Skyrden'
+image = 'https://cdn.discordapp.com/attachments/891383611545251843/1078218446489272390/skrconcorde.png'
