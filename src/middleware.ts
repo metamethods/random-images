@@ -1,9 +1,13 @@
 import { NextResponse } from "next/server";
+
+import GetImage from "./util/GetImage";
+
 import type { NextRequest } from "next/server";
 
 export async function middleware(request: NextRequest) {
+  const Image = await GetImage('random', ['test1', 'test2']);
   const response = NextResponse.redirect(
-    new URL("/images/0", request.url)
+    new URL(`/images/${Image?.slug}`, request.url)
   );
 
   return response;

@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import GetImage from '@/util/server/GetImage';
 
 import Display from './Display';
 
@@ -10,16 +11,14 @@ export default async function Page(
   { params }: { params: Params }
 ) {
   const { slug } = params;
+  const Data = await GetImage(slug);
+
+  if (!Data) return notFound();
 
   return (
     <main className='flex items-center justify-center | min-h-screen'>
       <Display
-        image={{
-          name: '',
-          description: '',
-          author: '',
-          image: '',
-        }}
+        image={Data}
       />
     </main>
   )
