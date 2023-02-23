@@ -1,3 +1,22 @@
+# Adding an Image
+To add an image to the website, you would go to`src/data/images.toml`.
+Then add the image in this format:
+
+```toml
+# ...
+
+[[image]]
+name="name of image"
+description="description of image"
+author="The author of the image"
+image="The url of the image"
+
+# ...
+```
+
+After that, create a pr (pull request) and wait for it to be merged!
+
+# Building Information
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
