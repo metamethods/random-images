@@ -1,9 +1,14 @@
 import GetImage from "@/util/server/GetImage";
-import { GetBaseURL } from "@/util/GetImage";
 
 interface Params {
   slug: string;
 }
+
+const GetBaseURL = () => {
+  if (typeof window !== 'undefined') return "";
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return `http://localhost:${process.env.PORT ?? 3000}`;
+};
 
 export default async function Head(
   { params }: { params: Params }
