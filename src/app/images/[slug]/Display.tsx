@@ -19,7 +19,7 @@ export default function Display(
         {/* eslint-disable-next-line jsx-a11y/alt-text */}
         <img
           src={image.image}
-          className="w-full h-[450px] | rounded-md | mt-8 | border-2 border-opacity-5 border-white"
+          className="w-full h-[450px] | object-cover | rounded-md | mt-8 | border-2 border-opacity-5 border-white"
         ></img>
 
         <figcaption className="mt-8">
