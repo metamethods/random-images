@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import GetImage from '@/util/server/GetImage';
+import GetImage from '@/util/ServerGetImage';
 
 import Display from './Display';
 

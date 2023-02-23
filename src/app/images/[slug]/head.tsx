@@ -1,4 +1,4 @@
-import GetImage from "@/util/server/GetImage";
+import GetImage from "@/util/ServerGetImage";
 
 interface Params {
   slug: string;

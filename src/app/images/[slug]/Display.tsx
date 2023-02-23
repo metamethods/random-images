@@ -23,7 +23,7 @@ export default function Display(
         ></img>
 
         <figcaption className="mt-8">
-          <p className="text-xl text-center font-medium | opacity-50">- {image.name}</p>
+          <p className="text-xl text-center font-medium | opacity-50">- {image.author}</p>
         </figcaption>
       </figure>
     </main>

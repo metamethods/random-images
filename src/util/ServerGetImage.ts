@@ -1,6 +1,6 @@
 import { readdir, readFile } from "fs/promises";
 import { join, resolve } from "path";
-import type { Image } from "../GetImage";
+import type { Image } from "./GetImage";
 
 const TemporaryDirectory = resolve("./data/temporary");
 
