@@ -16,6 +16,8 @@ image="The url of the image"
 
 After that, create a pr (pull request) and wait for it to be merged!
 
+__Image dimentions must be 896px by 450px for it to display nicely__
+
 # Building Information
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
